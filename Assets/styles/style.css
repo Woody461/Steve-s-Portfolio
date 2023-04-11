@@ -125,7 +125,26 @@ input[type=text], select, textarea {
     font-weight: 200;
   }
 
-  .Projects p{
-    margin-bottom: 250px;
-
+ 
+  .Projects {
+    width: 250px;
+    font-weight: bold;
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 2%;
+    
   }
+   
+  .Projects img{
+    margin: 0 auto;
+    border-radius: 30%;
+    border-color: #1fa70d;
+    border-style: solid;
+    flex-direction: row;
+  }
+.Projects p{
+    font-style: normal;
+    font-weight: bold;
+}
